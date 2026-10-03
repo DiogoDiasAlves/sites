@@ -20,6 +20,7 @@ Cada pasta tem:
 | Excellency Motors | Diogo | Link do site no Google dá erro 404 | [excellency-motors](excellency-motors/) |
 | Vip Car Veículos | Diogo | Site inacabado, sem estoque | [vipcar-veiculos](vipcar-veiculos/) |
 | Diamond Motors | Diogo | Portal Kleber Carros + site com texto de modelo | [diamond-motors](diamond-motors/) |
+| Podium Multimarcas | Diogo | Site de 2015, sem km nem câmbio nos anúncios | [podium-multimarcas](podium-multimarcas/) |
 
 ## Antes de publicar
 
