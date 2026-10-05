@@ -22,8 +22,29 @@ Cada pasta tem:
 | Diamond Motors | Diogo | Portal Kleber Carros + site com texto de modelo | [diamond-motors](diamond-motors/) |
 | Podium Multimarcas | Diogo | Site de 2015, sem km nem câmbio nos anúncios | [podium-multimarcas](podium-multimarcas/) |
 
-## Antes de publicar
+## Publicar na Cloudflare Pages
 
-A imagem de prévia do link (`og:image`) e as imagens dos dados estruturados estão com caminho
-relativo. Depois de escolher onde hospedar, troque pelo endereço completo, senão o WhatsApp não
-mostra a prévia com foto.
+Cada loja vira um projeto separado, com link próprio (ex.: `bestcar-multimarcas.pages.dev`).
+O `build.sh` monta a versão publicável em `dist/`:
+
+- deixa de fora `NOTAS.md` e `preview/`, que são internos;
+- troca a imagem de prévia do link (`og:image`) e as imagens do JSON-LD por endereço completo,
+  para o WhatsApp mostrar a foto;
+- marca o site como `noindex`, para a demonstração não aparecer no Google no lugar do site real da
+  loja. **Quando o cliente fechar, tire o noindex** e publique no domínio dele.
+
+No painel da Cloudflare: **Workers e Pages → Criar → Pages → Conectar ao Git**, escolha este
+repositório e crie um projeto por loja com:
+
+| Nome do projeto | Comando de build | Pasta de saída |
+|---|---|---|
+| `bestcar-multimarcas` | `bash build.sh bestcar-multimarcas` | `dist` |
+| `excellency-motors` | `bash build.sh excellency-motors` | `dist` |
+| `vipcar-veiculos` | `bash build.sh vipcar-veiculos` | `dist` |
+| `diamond-motors` | `bash build.sh diamond-motors` | `dist` |
+| `podium-multimarcas` | `bash build.sh podium-multimarcas` | `dist` |
+
+Predefinição de framework: **Nenhuma**. Branch de produção: `main`. Diretório raiz: vazio.
+Todo push no `main` publica de novo.
+
+Para testar no computador: `bash build.sh bestcar-multimarcas` e abra `dist/index.html`.
