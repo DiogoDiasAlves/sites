@@ -71,24 +71,27 @@ marca d'água do portal nas fotos e uma coluna lateral com banners de mais de 50
 abaixo para ver seu estoque"). O cliente que veio atrás da Diamond recebe a vitrine dos concorrentes. Num site
 próprio só aparecem os carros da Diamond, a marca é a da Diamond e cada botão leva direto ao WhatsApp da loja.
 
-**Site atual (diamondcriciuma.com.br).** Ele existe, mas tem cara de modelo pronto que não foi terminado:
-- Sobrou texto de modelo em inglês ("Hello world!", "Request car price", "Schedule a Test Drive", "Trade in") e um
-  contador "+ Years" sem número.
-- A foto do Compass Limited está quebrada no estoque.
-- O estoque está fora de sincronia com o portal: 3 veículos dão página 404 e faltam os mais novos (Gol 2022, Sandero
-  Life, ASX, Airtrek).
-- O SEO é fraco: não tem meta description, o título é "DIAMOND MOTORS CRICIÚMA -" e não há imagem de prévia para o
-  WhatsApp.
-- O banner principal é um PNG de 1,9 MB, que pesa no 4G.
+**Site atual (diamondcriciuma.com.br).** O dono divulga esse site na bio do Instagram, então a abordagem é "fiz uma
+versão nova do site de vocês", nunca "vocês não têm site". Na conversa, use só o que o dono vê na tela:
+- **No celular o site fica desconfigurado** (Diogo conferiu em 05/10). É o argumento principal: o cliente de carro
+  procura pelo celular.
+- A foto do Compass Limited aparece quebrada no estoque (visto em 03/10).
+- Alguns carros abrem "página não encontrada" e faltam os mais novos (Gol 2022, Sandero Life, ASX, Airtrek).
 - Não tem filtro por marca ou preço, nem simulador, e não mostra a nota 4,9 do Google.
+- Quando alguém manda o link no WhatsApp, não aparece foto nem descrição.
+
+Só no código, **não usar na conversa** (o dono não enxerga): texto de modelo em inglês ("Hello world!", "Request car
+price", "Schedule a Test Drive", "Trade in"), falta de meta description, título "DIAMOND MOTORS CRICIÚMA -" e banner
+principal em PNG de 1,9 MB.
 
 **O que a demo entrega.** Abre rápido no celular, fala "seminovos em Criciúma" no Google, mostra a nota 4,9, deixa
 filtrar por marca, preço e tipo, abre a ficha de cada carro com fotos e opcionais, manda a mensagem pronta citando o
 carro no WhatsApp e tem um simulador de parcela que já envia a simulação para a loja.
 
-Sugestão de mensagem: *"Felipe, montei uma versão nova do site da Diamond com os 35 carros que estão no Kleber Carros,
-com as fotos de vocês, a nota 4,9 do Google e o botão de WhatsApp em cada carro. Hoje o Google manda o cliente para o
-portal, onde aparecem os banners de mais de 50 outras lojas. Dá uma olhada no celular: [link]"*
+Mensagem usada pelo Diogo (Studio Avance), em balões: apresentação como fundador do Studio Avance, especialista em
+posicionamento digital para vendas; "entrei no site de vocês pelo celular e ele fica desconfigurado"; versão nova com a
+estrutura que vende mais (35 carros, fotos deles, nota 4,9, WhatsApp em cada carro); link; "abre no celular e compara
+com o atual". Mandar junto um print do site atual quebrado no celular, lado a lado com o novo.
 
 ## Técnico
 
