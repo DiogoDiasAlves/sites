@@ -21,6 +21,7 @@ Cada pasta tem:
 | Vip Car Veículos | Diogo | Site inacabado, sem estoque | [vipcar-veiculos](vipcar-veiculos/) |
 | Diamond Motors | Diogo | Portal Kleber Carros + site com texto de modelo | [diamond-motors](diamond-motors/) |
 | Podium Multimarcas | Diogo | Site de 2015, sem km nem câmbio nos anúncios | [podium-multimarcas](podium-multimarcas/) |
+| Joãozinho Seminovos | Diogo | Estoque sem filtro no celular, home com só 6 carros | [joaozinho-seminovos](joaozinho-seminovos/) |
 
 ## Publicar na Cloudflare Pages
 
@@ -43,6 +44,7 @@ repositório e crie um projeto por loja com:
 | `vipcar-veiculos` | `bash build.sh vipcar-veiculos` | `dist` |
 | `diamond-motors` | `bash build.sh diamond-motors` | `dist` |
 | `podium-multimarcas` | `bash build.sh podium-multimarcas` | `dist` |
+| `joaozinho-seminovos` | `bash build.sh joaozinho-seminovos` | `dist` |
 
 Predefinição de framework: **Nenhuma**. Branch de produção: `main`. Diretório raiz: vazio.
 Todo push no `main` publica de novo.
